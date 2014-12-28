@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CE8107AE18FDCC20001CCBBA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE8107AD18FDCC20001CCBBA /* main.cpp */; };
 		CE8107B018FDCC20001CCBBA /* CPPProgram4Time.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CE8107AF18FDCC20001CCBBA /* CPPProgram4Time.1 */; };
+		CE8107B818FDDB6F001CCBBA /* time.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE8107B718FDDB6F001CCBBA /* time.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		CE8107AA18FDCC20001CCBBA /* CPPProgram4Time */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPPProgram4Time; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8107AD18FDCC20001CCBBA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CE8107AF18FDCC20001CCBBA /* CPPProgram4Time.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CPPProgram4Time.1; sourceTree = "<group>"; };
+		CE8107B618FDD518001CCBBA /* time.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = time.h; sourceTree = "<group>"; };
+		CE8107B718FDDB6F001CCBBA /* time.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = time.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +63,10 @@
 		CE8107AC18FDCC20001CCBBA /* CPPProgram4Time */ = {
 			isa = PBXGroup;
 			children = (
-				CE8107AD18FDCC20001CCBBA /* main.cpp */,
 				CE8107AF18FDCC20001CCBBA /* CPPProgram4Time.1 */,
+				CE8107AD18FDCC20001CCBBA /* main.cpp */,
+				CE8107B618FDD518001CCBBA /* time.h */,
+				CE8107B718FDDB6F001CCBBA /* time.cpp */,
 			);
 			path = CPPProgram4Time;
 			sourceTree = "<group>";
@@ -117,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8107B818FDDB6F001CCBBA /* time.cpp in Sources */,
 				CE8107AE18FDCC20001CCBBA /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
